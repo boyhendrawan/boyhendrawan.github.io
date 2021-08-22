@@ -13,6 +13,11 @@
   position: relative;
   margin-top: -400px;
 }
+.highLight {
+  border-bottom: 4px solid rgb(182, 0, 255);
+
+  padding-bottom: -4px;
+}
 .bg-purple {
   color: #8a3ffc !important;
   /* font-size: 100p; */
@@ -38,15 +43,6 @@
   }
   .nav-link:hover {
     color: #8a3ffc !important;
-  }
-  .nav-link:hover::after {
-    content: " ";
-    display: block;
-    border-bottom: 3px solid #8a3ffc;
-    width: 50%;
-    margin: auto;
-    padding-bottom: 5px;
-    margin-bottom: -8px;
   }
   .btn-custom-tes {
     margin: 0 80px !important;
@@ -77,6 +73,7 @@
   letter-spacing: 3px;
   font-weight: 300;
 }
+
 
 .position h4 {
   font-size: 14px;
@@ -161,10 +158,10 @@
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
-.card:hover {
+/* .card:hover {
   transform: scale(1.08);
   cursor: pointer;
-}
+} */
 .img {
   width: 50px;
   height: 48px;
